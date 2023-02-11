@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>테스트</h1>
+    <h1>메인</h1>
   </header>
 </template>
 
