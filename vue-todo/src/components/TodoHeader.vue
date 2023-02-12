@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>메인</h1>
+    <h1>섹션4(모듈화)</h1>
   </header>
 </template>
 
