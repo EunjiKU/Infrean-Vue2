@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>섹션3</h1>
+    <h1>섹션3(Vuex)</h1>
   </header>
 </template>
 
