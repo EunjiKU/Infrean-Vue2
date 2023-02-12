@@ -27,7 +27,7 @@ export default {
     }
   },
   created: function() {
-    for(var i = 0 ; localStorage.length > i ; i++) {
+    for(let i = 0 ; localStorage.length > i ; i++) {
       if(localStorage.key(i) !== "loglevel:webpack-dev-server" && localStorage.key(i) !== "") {
         this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))));
       }
@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     addOneItem: function(todoItem) {
-      var obj = {completed: false, item: todoItem}
+      const obj = {completed: false, item: todoItem}
       localStorage.setItem(todoItem, JSON.stringify(obj));
       this.todoItems.push(obj);
     },
